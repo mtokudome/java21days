@@ -1,0 +1,20 @@
+CREATE TABLE cooldata (
+  dex BIGINT NOT NULL,
+  topic VARCHAR(255) NOT NULL,
+  url VARCHAR(255) NOT NULL,
+  title VARCHAR(255) NOT NULL,
+  description VARCHAR(255) NOT NULL,
+  added date default NULL,
+  featured date default NULL,
+  status smallint default NULL,
+  PRIMARY KEY  (dex)
+);
+
+--
+-- Dumping data for table `cooldata`
+--
+
+INSERT INTO cooldata VALUES (2036,'Top/Arts/Movies/Titles','http://www.wbmovies.com/187/','187','Official site. Includes synopsis, trailer, cast biographies, background information, reviews, production notes, and related links','2004-12-20','1967-04-13',1);
+INSERT INTO cooldata VALUES (2037,'Top/Arts/Movies/Titles','http://www.scifi.sk/12Monkeys/faq.html','12 Monkeys FAQ','Comprehensive list of plot questions, with detailed answers','2004-12-20','1967-04-13',1);
+INSERT INTO cooldata VALUES (2038,'Top/Arts/Movies/Titles','http://www.mgm.com/cgi-bin/c2k/title_title.html&amp;title_star=TWODAYSI','2 Days in the Valley','Official site from MGM pictures.  Contains synopsis and credit information','2004-12-20','1967-04-13',1);
+INSERT INTO cooldata VALUES (2039,'Top/Arts/Movies/Titles','http://www.allwatchers.com/Topics/Info_4941.asp','Allwatchers: 28 Days','Detailed analysis of the film, focuses on characterization, structural development and thematic elements','2004-12-20','1967-04-13',1);
